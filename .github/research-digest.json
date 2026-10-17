@@ -19,8 +19,6 @@
 
   "reddit_subreddits": ["LocalLLaMA", "llama_cpp", "MachineLearning"],
 
-  "lobsters_tags": ["ai", "ml"],
-  "min_lobsters_score": 5,
 
   "arxiv_queries": ["cat:cs.LG AND all:\"quantization\"", "all:\"llama.cpp\""],
 
@@ -30,6 +28,7 @@
   "bluesky_queries": [],
 
   "rss_feeds": [
+    "https://news.google.com/rss/search?q=%22llama.cpp%22+OR+%22CPU+inference%22&hl=en-US&gl=US&ceid=US:en",
     "https://huggingface.co/blog/feed.xml",
     "https://dev.to/feed/tag/llm",
     "https://dev.to/feed/tag/machinelearning"
